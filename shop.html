@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Shop — FRENZYY</title>
+<link rel="stylesheet" href="css/styles.css?v=3" />
+</head>
+<body>
+
+<div class="top-bar">
+  <div class="marquee">
+    <div class="marquee-track">
+      <span>FRENZYY DROP 005 OUT NOW</span>
+      <span>UNDER CONSTRUCTION SINCE DAY ONE</span>
+      <span>LIMITED RUN — STOCK WON'T LAST</span>
+      <span>HANDLE WITH CARE</span>
+      <span>FRENZYY DROP 005 OUT NOW</span>
+      <span>UNDER CONSTRUCTION SINCE DAY ONE</span>
+      <span>LIMITED RUN — STOCK WON'T LAST</span>
+      <span>HANDLE WITH CARE</span>
+    </div>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="nav-wrap">
+    <a href="index.html" class="brand-logo"><span class="bolt">⚙</span> FRENZYY</a>
+    <button class="burger" id="burgerBtn" aria-label="Menu">&#9776;</button>
+    <nav class="nav-menu" id="navMenu">
+      <a href="index.html">Home</a>
+      <a href="shop.html" class="active">Shop</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <a href="cart.html" class="cart-link">Bag <span class="cart-count" id="cartCountNav">0</span></a>
+    </nav>
+  </div>
+</header>
+
+<div class="caution-stripes" style="height:16px;"></div>
+
+<section>
+  <div class="catalog-heading">
+    <div><div class="eyebrow">Full Catalog / Drop 005</div><h2 class="section-title">Field<br>Equipment</h2></div>
+    <div class="catalog-note"><span>06 objects / one run</span><p>Every piece in the current release. Built in small quantities and not repeated once it moves off site.</p></div>
+  </div>
+
+  <div class="filter-row">
+    <button class="filter-pill active" data-filter="All">All</button>
+    <button class="filter-pill" data-filter="Hoodies">Hoodies</button>
+    <button class="filter-pill" data-filter="Tees">Tees</button>
+    <button class="filter-pill" data-filter="Pants">Pants</button>
+    <button class="filter-pill" data-filter="Jackets">Jackets</button>
+    <button class="filter-pill" data-filter="Accessories">Accessories</button>
+  </div>
+
+  <div class="product-grid" id="shopGrid"></div>
+</section>
+
+<footer class="site-footer">
+  <div class="foot-grid">
+    <div class="foot-col" style="flex:1.4; min-width:220px;">
+      <div class="foot-brand">FRENZYY</div>
+      <p style="font-size:.85rem; line-height:1.7; max-width:300px;">Construction-grade streetwear out of Cape Town. Built on site, worn in the streets.</p>
+    </div>
+    <div class="foot-col">
+      <h4>Shop</h4>
+      <a href="shop.html">All Products</a>
+    </div>
+    <div class="foot-col">
+      <h4>Brand</h4>
+      <a href="about.html">About Us</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <div class="foot-col">
+      <h4>Follow</h4>
+      <a href="#">Instagram</a>
+      <a href="#">TikTok</a>
+    </div>
+  </div>
+  <div class="foot-bottom">
+    <span>&copy; 2026 FRENZYY. ALL RIGHTS RESERVED.</span>
+    <span>CAPE TOWN, SOUTH AFRICA</span>
+  </div>
+</footer>
+
+<script src="js/data.js?v=3"></script>
+<script src="js/cart.js"></script>
+<script src="js/main.js?v=3"></script>
+<script>
+  renderShop();
+</script>
+</body>
+</html>

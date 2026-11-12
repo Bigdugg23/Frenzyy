@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Your Bag — FRENZYY</title>
+<link rel="stylesheet" href="css/styles.css?v=3" />
+</head>
+<body>
+
+<div class="top-bar">
+  <div class="marquee">
+    <div class="marquee-track">
+      <span>FRENZYY DROP 005 OUT NOW</span>
+      <span>UNDER CONSTRUCTION SINCE DAY ONE</span>
+      <span>LIMITED RUN — STOCK WON'T LAST</span>
+      <span>HANDLE WITH CARE</span>
+      <span>FRENZYY DROP 005 OUT NOW</span>
+      <span>UNDER CONSTRUCTION SINCE DAY ONE</span>
+      <span>LIMITED RUN — STOCK WON'T LAST</span>
+      <span>HANDLE WITH CARE</span>
+    </div>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="nav-wrap">
+    <a href="index.html" class="brand-logo"><span class="bolt">⚙</span> FRENZYY</a>
+    <button class="burger" id="burgerBtn" aria-label="Menu">&#9776;</button>
+    <nav class="nav-menu" id="navMenu">
+      <a href="index.html">Home</a>
+      <a href="shop.html">Shop</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <a href="cart.html" class="cart-link active">Bag <span class="cart-count" id="cartCountNav">0</span></a>
+    </nav>
+  </div>
+</header>
+
+<div class="caution-stripes" style="height:16px;"></div>
+
+<section>
+  <div class="eyebrow">Step 1 Of 1 (For Now)</div>
+  <h2 class="section-title">Your Bag</h2>
+  <div id="cartWrap"></div>
+</section>
+
+<!-- CHECKOUT PLACEHOLDER MODAL -->
+<div class="modal-overlay" id="checkoutModal">
+  <div class="modal-box">
+    <button class="modal-close" onclick="closeCheckoutModal()">&times;</button>
+    <h3>🚧 Checkout Coming Soon</h3>
+    <p>Online payments are still under construction. Copy your order summary below and send it to us on WhatsApp or Instagram to lock it in — we'll confirm stock and get you paid up manually for now.</p>
+    <div class="modal-actions">
+      <button class="btn btn-fill btn-sm" id="copySummaryBtn" onclick="copyOrderSummary()">Copy Order Summary</button>
+      <a class="btn btn-outline btn-sm" href="contact.html">Go To Contact</a>
+    </div>
+  </div>
+</div>
+
+<footer class="site-footer">
+  <div class="foot-grid">
+    <div class="foot-col" style="flex:1.4; min-width:220px;">
+      <div class="foot-brand">FRENZYY</div>
+      <p style="font-size:.85rem; line-height:1.7; max-width:300px;">Construction-grade streetwear out of Cape Town. Built on site, worn in the streets.</p>
+    </div>
+    <div class="foot-col">
+      <h4>Shop</h4>
+      <a href="shop.html">All Products</a>
+    </div>
+    <div class="foot-col">
+      <h4>Brand</h4>
+      <a href="about.html">About Us</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <div class="foot-col">
+      <h4>Follow</h4>
+      <a href="#">Instagram</a>
+      <a href="#">TikTok</a>
+    </div>
+  </div>
+  <div class="foot-bottom">
+    <span>&copy; 2026 FRENZYY. ALL RIGHTS RESERVED.</span>
+    <span>CAPE TOWN, SOUTH AFRICA</span>
+  </div>
+</footer>
+
+<script src="js/data.js?v=3"></script>
+<script src="js/cart.js"></script>
+<script src="js/main.js?v=3"></script>
+<script>
+  renderCartPage();
+</script>
+</body>
+</html>
